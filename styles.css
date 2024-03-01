@@ -1,0 +1,126 @@
+body{
+    background: #FFD600;
+    width: 1440px;
+  height: 1024px;
+  }
+  h1 {
+    text-align:center;
+    color: #000;
+   white-space: nowrap;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+  } 
+  h2
+   {text-align:center;
+    color: #000;
+   white-space: nowrap;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+     line-height: normal;}
+  #container {
+           /*position: relative;
+          width: 400px;
+          height: 400px;
+         border: 1px solid #000;*/
+      }
+  
+  .man{ 
+    position: absolute;
+   
+  left:310px;
+    top:355px;}
+  
+  .man2{position: absolute;
+   
+  left:1070px;
+    top:355px;}
+  
+  
+  #line{
+     position: absolute;
+   width: 700px;
+  height: 10px;
+      background-color: black;
+  left:380px;
+    top:380px;
+    /*width: 500px;
+    height: 10px;
+    border: 10px solid #2196F3;
+    background-color: #f7f7f7;
+       place-content: center;*/
+  }
+  
+  
+  
+      #triangle {
+        
+          position: absolute;
+          top: 350px;
+          left: 700px;
+          width: 0;
+          height: 0;
+          border-left: 30px solid transparent;
+          border-right: 30px solid transparent;
+          border-bottom: 90px solid black;
+        rotate:180deg;
+      }
+      .button {
+        display:flex;
+    justify-content:center;
+        text-align: center;
+        line-height:170px;
+       
+           /*width: 331px;
+          text-align: center;
+          line-height:170px;
+          cursor: pointer;
+    justify-content:center;*/
+      }
+      #yes {
+    /*position: relative;
+         top: 500px;
+          left: 300px;
+        font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+    border: 3px solid #73AD21;
+          background-color: white;
+          color: black;*/
+         width: 331px;
+  height: 170px;
+  flex-shrink: 0;
+        font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+      background-color: #f0f0f0;
+      border: 3px solid #ccc;
+    margin:250px
+      }
+      #no {
+       /* font-family: Inter;
+        font-size: 60px;
+  font-weight: 700;
+        position: relative;
+          top: 325px;
+          left: 1300px;
+         border: 3px solid #73AD21;
+          background-color: white;
+          color: black;*/
+        width: 331px;
+  height: 170px;
+  flex-shrink: 0;
+        font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+      background-color: #f0f0f0;
+      border: 3px solid #ccc;
+    margin:250px
+        
+        
+      
